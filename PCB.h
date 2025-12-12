@@ -12,16 +12,5 @@ struct PCB {
     std::vector<int> cpuRegisters;
 };
 
-class ListNode {
-public:
-    PCB data;
-    ListNode* next;
-
-
-    ListNode(const PCB& newData) : data(newData), next(nullptr) {}
-    
-
-    ~ListNode() {}
-};
 
 #endif

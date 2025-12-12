@@ -21,18 +21,18 @@ int main() {
     scheduler.insert(p3);
     scheduler.insert(p4);
 
-    cout << "\n3. Проверка сортировки после вставок:" << endl;
+    cout << "3. Проверка сортировки после вставок:" << endl;
     scheduler.printList();
 
-    cout << "\n4. Удаление процесса с ID 103 (Editor)..." << endl;
+    cout << "4. Удаление процесса с ID 103 (Editor)..." << endl;
     if (scheduler.remove(103)) {
         cout << "-> Успешно удалено." << endl;
     }
 
-    cout << "\n5. Список после удаления:" << endl;
+    cout << "5. Список после удаления:" << endl;
     scheduler.printList();
 
-    cout << "\n6. Тест ошибок:" << endl;
+    cout << "6. Тест ошибок:" << endl;
 
     cout << "-> Попытка добавить дубликат ID 101: ";
     if (!scheduler.insert(p2)) {
@@ -48,7 +48,7 @@ int main() {
         cout << "Успех (ошибка логики!)." << endl;
     }
 
-    cout << "\n7. Финальное состояние списка:" << endl;
+    cout << "7. Финальное состояние списка:" << endl;
     scheduler.printList();
 
     return 0;

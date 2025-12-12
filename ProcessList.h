@@ -2,6 +2,7 @@
 #define PROCESSLIST_H
 
 #include "PCB.h"
+#include "ListNode.h"
 
 class ProcessList {
 private:
