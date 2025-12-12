@@ -1,5 +1,6 @@
 #ifndef LISTNODE_H
 #define LISTNODE_H
+#include "PCB.h"
 class ListNode {
 public:
     PCB data;
